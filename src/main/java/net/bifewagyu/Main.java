@@ -16,11 +16,11 @@ public class Main {
         String token = sc.nextLine();
 
         SpotifyToken.inicializateApi(token);
-        SpotifyToken.slaPorra();
+        SpotifyToken.nomeDaPessoa();
 
-//        System.out.println("Digite a musica: ");
-//        String musica = sc.nextLine();
-//        SpotifyToken.darPlay(musica);
+        System.out.println("Digite a musica: ");
+        String musica = sc.nextLine();
+        SpotifyToken.darPlay(musica);
 
 
 
